@@ -1,0 +1,38 @@
+/* find.html header part */
+.find {
+  margin-top: 50px; /* main part와 header part 사이의 간격 넓혀줌. */
+}
+.find .find__header-list {
+  display: flex; /* 아이콘과 텍스트 묶음이 가로로 정렬됨. */
+  justify-content: space-around; /* 아이콘들을 서로 떨어뜨려 놓으려고 함. */
+}
+.find .header-btn {
+  display: flex; /* 각각의 아이콘, 텍스트가 가로로 정렬됨. */
+  flex-direction: column; /* 정렬 방향을 세로 방향으로 바꿈. */
+  align-items: center; /* 텍스트를 아이콘 밑에 두고 가운데 정렬하기 위함. */
+}
+.find .header-btn__title {
+  display: block; /* 텍스트를 블록 요소로 아래 줄로 내려가게 해줌. */
+}
+
+.find .header-btn__title {
+  margin-top: 20px;
+  font-size: 14px; /* 텍스트 크기 조정 */
+}
+
+.find .header-btn__icon {
+  font-size: 12px; /*아이콘 크기 조정 */
+}
+
+/* find.html Recommended Friends part */
+.find .find__recommended {
+  margin-top: 30px; /*border top과 header part 사이의 거리 */
+  padding-top: 15px; /* border top과 Recommended Friends text 사이의 거리 */
+  border-top: 1px solid #f7f7f7;
+}
+
+.find .find__title {
+  font-size: 12px; /*Recommended Friends 글자 크기 설정 */
+  opacity: 0.7; /* Recommended Friends 글자 밝기 설정 */
+  margin-bottom: 20px; /*Recommended Friends와 밑에 profile 사이의 간격 */
+}

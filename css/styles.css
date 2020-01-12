@@ -1,0 +1,26 @@
+@import "reset.css";
+@import url("https://fonts.google.com/?selection.family=Open+Sans:300, 400, 600"); /* 구글 폰트 import하는 법 */
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  padding: 10px 20px; /* contents들 간의 거리 설정을 위해 적용 */
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit; /* parent의 색깔을 받아온다. */
+  text-decoration: none; /* 링크의 선을 없애준다. */
+}
