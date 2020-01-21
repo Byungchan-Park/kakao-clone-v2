@@ -3,6 +3,7 @@
   justify-content: space-between; /* Chats와 아이콘을 떨어뜨리기 위함. */
   align-items: center;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .header .header__title {

@@ -99,9 +99,6 @@
   width: 80%; /* chatting 창을 감싸는 parent box */
 }
 
-.chat__write-column input {
-}
-
 .chat-screen .chat__messages {
   border-top: 1px solid #f7f7f7;
   display: flex;
